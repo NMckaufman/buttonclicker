@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <!--Header Space-->    
+        <div>
+            <header class="flexed">
+                <h1 class="dojanary"> Dojonary </h1>
+                <input type="text"  placeholder="Search">
+                <button onclick="Logon(this)"> Login</button>
+            
+            </header>
+        </div>
+    <!--End of Header Space-->
+    <!--Main Space-->
+        <div class="row">
+    <!--Top Column-->
+                <div class="col-1 border flexed">
+                    <div class="body-words">
+                        <h1>Ninja</h1>
+                        <h2>noun</h2>
+                        <h3>Plural: ninjas</h3>
+                        <button onclick="alert('Ninja was liked')" class="likes" >likes</button>
+                    </div>
+                    <div >
+                        <p> A practitioner skilled in the <span>Japanese</span>art of<span> ninjuitsu</span></p>
+                    </div>                                        
+                </div> 
+    <!--Right Collumn-->   
+                <div class="col-2 border">
+                    <h1>Dojonary is<br>defined by YOU</h1>
+                    <div class="button1">
+                        <button onclick="remove(this)">Add Definition</button>
+                    </div>
+                    
+                </div>
+                        
+        </div>                
+        <div>
+            <!--Second bottom Column-->
+        <div class="row">
+            <div class="col-3 border flexed">
+                <div class="body-words">
+                    <h1>Ninja</h1>
+                    <h2>noun</h2>
+                    <h3>Plural: ninjas</h3> 
+                    <button onclick="alert()">likes</button>          
+                </div>  
+                <p> A Programmer who breaks down problems with zen-like focus</p>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        </div>
+    </div>
+    <script src="interact.js"></script>
+</body>
+</html>
